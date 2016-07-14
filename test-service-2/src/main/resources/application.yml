@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: service
+
+server:
+  port: 8081
+
+eureka:
+  instance:
+    hostname: localhost
+#    prefer-ip-address: true
+    non-secure-port: ${server.port}
+  client:
+    serviceUrl.defaultZone: http://localhost:8761/eureka/

@@ -8,6 +8,9 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<modules>
 		<module>Eureka-Server</module>
+		<module>test-service-1</module>
+		<module>test-service-2</module>
+		<module>test-client</module>
 	</modules>
 	<packaging>pom</packaging>
 

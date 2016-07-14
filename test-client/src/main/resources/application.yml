@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: client
+
+server:
+  port: 80
+
+eureka:
+  instance:
+    hostname: ${spring.application.name}
+    preferIpAddress: true
+    non-secure-port: ${server.port}
+  client:
+    serviceUrl.defaultZone: http://localhost:8761/eureka/
+
+service:
+  url: http://service/status
