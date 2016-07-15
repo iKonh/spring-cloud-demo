@@ -11,6 +11,7 @@
 		<module>test-service-1</module>
 		<module>test-service-2</module>
 		<module>test-client</module>
+		<module>Hystrix-Server</module>
 	</modules>
 	<packaging>pom</packaging>
 
@@ -44,7 +45,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -60,6 +61,6 @@
 			</plugin>
 		</plugins>
 	</build>
-	
+
 
 </project>
