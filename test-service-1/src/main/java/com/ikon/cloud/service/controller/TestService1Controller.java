@@ -10,4 +10,9 @@ public class TestService1Controller {
     public String getStatus(){
         return "这是服务1";
     }
+
+    @RequestMapping(value = "/status2")
+    public String getStatus2(){
+        return "这是服务1";
+    }
 }
