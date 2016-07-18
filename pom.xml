@@ -12,6 +12,7 @@
 		<module>test-service-2</module>
 		<module>test-client</module>
 		<module>Hystrix-Server</module>
+		<module>Zuul-Server</module>
 	</modules>
 	<packaging>pom</packaging>
 

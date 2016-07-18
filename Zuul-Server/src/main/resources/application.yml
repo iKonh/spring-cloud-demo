@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: zuul-server
+
+server:
+  port: 8765
+
+eureka:
+  instance:
+    hostname: localhost
+    non-secure-port: ${server.port}
+  client:
+    serviceUrl.defaultZone: http://localhost:8761/eureka/
+
+zuul:
+  routes:
+    client: /client-api/**

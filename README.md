@@ -11,3 +11,6 @@
 - test-client 用于访问注册在Eureka上的服务
   - Ribbon:结合eureka，对其注册的同一个application.name下的所有实例(即服务)做负载均衡  在spring-cloud-eureka中封装于RestTemplate中(以前封装于RestTemplate的requestFactory中，Brixton.SR3之后的版本封装于interceptor中)
   - Hystrix:隔断机制，当产生错误时启用备用方案
+
+- Zuul-Server Zuul网关服务器
+  - Zuul 路由网关,通过设定path路径来访问Eureka中的指定服务集群
