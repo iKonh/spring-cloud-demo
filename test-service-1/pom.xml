@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>Test-Serversice-1</artifactId>
+    <artifactId>test-service-1</artifactId>
 
     <dependencies>
         <dependency>
